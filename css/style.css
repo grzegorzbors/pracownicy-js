@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #FFFDD6;
+    background-color: #000;
     font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ div#pracownicy{
     display: flex;
     justify-items: center;
     flex-direction: column;
-    background-color: #000;
+    background-color: #2B64C4;
     /* border-radius: 5%; */
     border: 1px solid black;
 }
@@ -27,7 +27,7 @@ div#pracownicy h2{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: .5rem;
-    background-color: #FFAF00;
+    background-color: #C43E2B;
     border-radius: 50% 50% 0 0;
 }
 
@@ -90,12 +90,10 @@ button#oblicz{
     transition: all 1s;
     font-weight: 700;
     outline: none;
-    border-radius: 25%;
-
 }
 
 button#oblicz:hover{
-    background-color: #FFAF00;
+    background-color: #C43E2B;
     color: #fff;
 }
 
@@ -107,6 +105,10 @@ button#oblicz:hover{
 
 span#najlepsi-pracownicy{
     padding-left: .5rem;
-    color: rgb(47, 199, 47);
+    color: #1dd41d;
     font-size: 1rem;
+}
+
+div.najlepsi .star{
+    color: gold;
 }

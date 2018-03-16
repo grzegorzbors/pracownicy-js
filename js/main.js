@@ -58,7 +58,7 @@ function getThreeBest(arr){
     // dodanie 3 pierwszych imion do stringa i dodanie do spana z najlepszymi pracownikami
     let workerNames = '';
     for(let i = 0; i < 3; i++){
-        workerNames += `&star; ${arr[i].name} &star;`;
+        workerNames += `<span class="star">&star;</span> ${arr[i].name} <span class="star">&star;</span>`;
     }
     document.getElementById('najlepsi-pracownicy').innerHTML = workerNames;
 }
